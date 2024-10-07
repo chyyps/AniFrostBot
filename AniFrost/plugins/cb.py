@@ -1,10 +1,10 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.types import Message, CallbackQuery, InputMediaPhoto
 from pyrogram import filters
-from AniPlay import app
-from AniPlay.plugins.AnimeDex import AnimeDex
-from AniPlay.plugins.button import BTN, cache, get_hash
-from AniPlay.plugins.ErrorHandler import CBErrorHandler
+from AniFrost import app
+from AniFrost.plugins.AnimeDex import AnimeDex
+from AniFrost.plugins.button import BTN, cache, get_hash
+from AniFrost.plugins.ErrorHandler import CBErrorHandler
 
 QUERY = "**Search Results:** `{}`"
 

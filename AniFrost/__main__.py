@@ -1,15 +1,15 @@
 import importlib
 import asyncio
-from AniPlay import app
+from AniFrost import app
 from pyrogram import idle
-from AniPlay.plugins import ALL_MODULES
+from AniFrost.plugins import ALL_MODULES
 
 loop = asyncio.get_event_loop()
 
 
 async def init():
     for module in ALL_MODULES:
-        importlib.import_module("AniFlex.plugins." + module)
+        importlib.import_module("AniFrost.plugins." + module)
     print("[INFO]: Imported Modules Successfully")
 
     await app.start()

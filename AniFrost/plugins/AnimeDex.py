@@ -1,6 +1,6 @@
 import requests
 import urllib.parse
-from AniPlay.plugins.other import emoji
+from AniFrost.plugins.other import emoji
 
 
 class AnimeDex:

@@ -1,9 +1,9 @@
 from pyrogram.types import Message
 from pyrogram import filters
-from AniPlay import app
-from AniPlay.plugins.AnimeDex import AnimeDex
-from AniPlay.plugins.button import BTN
-from AniPlay.plugins.ErrorHandler import CMDErrorHandler
+from AniFrost import app
+from AniFrost.plugins.AnimeDex import AnimeDex
+from AniFrost.plugins.button import BTN
+from AniFrost.plugins.ErrorHandler import CMDErrorHandler
 
 
 @app.on_message(filters.command(["start", "ping", "help", "alive"]))
